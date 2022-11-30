@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: indigo;
+  font-family: Arial;
+  height: 100%;
+}
+
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
